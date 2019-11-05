@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "账户中心",
+  "usingComponents": {
+    "van-picker": "../../../static/vant/picker/index",
+    "van-area": "../../../../static/vant/area/index",
+    "van-action-sheet": "../../../../static/vant/action-sheet/index",
+    "van-field": "../../../../static/vant/field/index",
+    "van-toast": "../../../../static/vant/toast/index",
+    "van-radio": "../../../../static/vant/radio/index",
+    "van-radio-group": "../../../../static/vant/radio-group/index",
+    "van-row": "../../../static/vant/row/index",
+    "van-col": "../../../static/vant/col/index",
+    "van-icon": "../../../static/vant/icon/index",
+    "van-cell": "../../../static/vant/cell/index",
+    "van-button": "../../../static/vant/button/index",
+    "van-popup": "../../../static/vant/popup/index",
+    "van-dialog": "../../../static/vant/dialog/index"
+  }
+}

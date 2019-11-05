@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "修改绑定手机",
+  "usingComponents": {
+    "van-toast": "../../../../static/vant/toast/index",
+    "van-button": "../../../../static/vant/button/index",
+    "van-field": "../../../../static/vant/field/index"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "van-popup": "/static/vant/popup/index",
+    "van-loading": "/static/vant/loading/index",
+    "van-icon": "/static/vant/icon/index"
+  }
+}

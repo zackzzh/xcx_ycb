@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "联系客服",
+  "usingComponents": {
+    "van-toast": "../../../../static/vant/toast/index",
+    "van-dialog": "../../../../static/vant/dialog/index"
+    
+  }
+}

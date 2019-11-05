@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "van-toast": "../../static/vant/toast/index",
+    "van-cell": "../../static/vant/cell/index",
+    "van-tag": "../../static/vant/tag/index",
+    "van-icon": "../../static/vant/icon/index"
+  }
+}

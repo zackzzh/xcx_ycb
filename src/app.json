@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/start/main",
+    "pages/login/main",
+    "pages/myCenter/main",
+    "pages/myCenter/trade/main",
+    "pages/myCenter/trade/details/main",
+    "pages/myCenter/inform/main",
+    "pages/myCenter/reportForms/main",
+    "pages/myCenter/account/main",
+    "pages/myCenter/account/recharge/main",
+    "pages/customer/main",
+    "pages/customer/people/main",
+    "pages/customer/list/main",
+    "pages/customer/invoice/main",
+    "pages/customer/assign/main",
+    "pages/customer/remark/main"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/myCenter/setting/",
+      "pages": [
+        "main",
+        "member/main",
+        "member/join/main",
+        "customerSer/main",
+        "enterpriseInfo/main",
+        "enterpriseInfo/address/main",
+        "enterpriseInfo/bank/main",
+        "enterpriseInfo/telephone/main",
+        "personal/main",
+        "changePwd/main",
+        "bindPhone/main",
+        "authentication/main",
+        "authForms/main",
+        "agreement/main"
+      ]
+    },
+    {
+      "root": "pages/subcustomer",
+      "pages": [
+        "detail/main"
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/customer/main": {
+      "network": "all",
+      "packages": ["pages/myCenter/setting/"]
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "客源",
+        "pagePath": "pages/customer/main",
+        "iconPath": "static/images/customer.png",
+        "selectedIconPath": "static/images/customer-active.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/myCenter/main",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-active.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}

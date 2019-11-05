@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "公司成员",
+  "usingComponents": {
+    "van-toast": "../../../../static/vant/toast/index",
+    "van-row": "../../../../static/vant/row/index",
+    "van-col": "../../../../static/vant/col/index",
+    "van-popup": "../../../../static/vant/popup/index",
+    "van-icon": "../../../../static/vant/icon/index"
+  }
+}

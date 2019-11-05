@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "交易记录",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "van-tabs": "/static/vant/tabs/index",
+    "van-tab": "/static/vant/tab/index",
+    "van-button": "/static/vant/button/index",
+    "van-icon": "/static/vant/icon/index",
+    "van-toast": "/static/vant/toast/index",
+    "van-loading": "/static/vant/loading/index"
+  }
+}

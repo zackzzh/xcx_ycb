@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "管理报表",
+  "usingComponents": {
+    "van-popup": "../../../static/vant/popup/index",
+    "van-picker": "../../../static/vant/picker/index",
+    "van-progress": "../../../static/vant/progress/index",
+    "van-row": "../../../static/vant/row/index",
+    "van-col": "../../../static/vant/col/index"
+  }
+}

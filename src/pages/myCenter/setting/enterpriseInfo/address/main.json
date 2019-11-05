@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "企业地址",
+  "usingComponents": {
+    "van-toast": "../../../../../static/vant/toast/index",
+    "van-cell": "../../../../../static/vant/cell/index",
+    "van-field": "../../../../../static/vant/field/index",
+    "van-button": "../../../../../static/vant/button/index"
+  }
+}
